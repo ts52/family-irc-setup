@@ -1,0 +1,12 @@
+# Steps for updating and customizing an ubuntu 12.04.3 amazon ec2 install
+
+# install necessary packages
+sudo update
+sudo apt-get install git
+sudo apt-get install ircd-hybrid
+sudo apt-get install znc
+
+# update /etc/ircd-hybrid/ircd.conf
+
+# restart ircd
+sudo /etc/init.d/ircd-hybrid restart
